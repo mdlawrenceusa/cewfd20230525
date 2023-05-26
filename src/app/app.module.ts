@@ -14,6 +14,9 @@ import { VideoComponent } from './video/video.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'video', component: VideoComponent },
+      { path: 'iframe', component: ProductListComponent },
+
     ])
   ],
   declarations: [
