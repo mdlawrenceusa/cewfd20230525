@@ -16,23 +16,19 @@ import { IframeVideoComponent } from './iframe-video/iframe-video.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'video', component: VideoComponent },
-      { path: 'iframe', component: ProductListComponent },
-
-    ])
+      { path: 'iframe', component: IframeVideoComponent },
+    ]),
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent,
     VideoComponent,
-    IframeVideoComponent
+    IframeVideoComponent,
   ],
-  bootstrap: [
-    AppComponent
-  ]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
-
+export class AppModule {}
 
 /*
 Copyright Google LLC. All Rights Reserved.
